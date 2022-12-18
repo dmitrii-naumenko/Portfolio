@@ -1,4 +1,5 @@
 **/datasets
+**/private
 **/.DS_Store
 **/.ipynb*
 **/catboost_info

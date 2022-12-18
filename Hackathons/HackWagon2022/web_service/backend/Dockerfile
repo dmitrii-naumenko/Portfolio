@@ -1,0 +1,13 @@
+# Выкачиваем из dockerhub образ с python версии 3.9
+FROM python:3.9
+# Устанавливаем рабочую директорию для проекта в контейнере
+WORKDIR /backend
+# Скачиваем/обновляем необходимые библиотеки для проекта 
+COPY requirements.txt /backend
+RUN pip3 install --upgrade pip -r requirements.txt
+# |ВАЖНЫЙ МОМЕНТ| копируем содержимое папки, где находится Dockerfile, 
+# в рабочую директорию контейнера
+COPY . /backend
+#COPY ./saved_model_pretrained /backend/saved_model_pretrained
+# Устанавливаем порт, который будет использоваться для сервера
+EXPOSE 5000

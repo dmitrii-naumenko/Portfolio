@@ -1,5 +1,7 @@
 [https://codenrock.com/contests/hackwagon22#/](https://codenrock.com/contests/hackwagon22#/)
-<br>Команда 3DEV
+<br>Команда **3DEV**
+<br>Мы заняли 3-е место в лидер-борде по ML и 5-ое место в общем рейтинге
+[https://codenrock.com/contests/hackwagon22#/rating/2400](https://codenrock.com/contests/hackwagon22#/rating/2400)
 
 ## Подарки первым классом (Разработка сервиса для прогнозирования длительности движения вагонов)
  

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="KaVacancy" Class="VacancyDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DIMA-PC\MSSQL2014;Initial Catalog=KaVacancy;Persist Security Info=True;User ID=sa" SettingsObjectName="VacancyService.Properties.Settings" SettingsPropertyName="KaVacancyConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Vacancy" Member="Vacancies">
+    <Type Name="Vacancy">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Requirement" Type="System.String" DbType="NVarChar(2048)" CanBeNull="true" />
+      <Column Name="Responsibility" Type="System.String" DbType="NVarChar(2048)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.FTS_VACANTION" Method="FTS_VACANTION" IsComposable="true">
+    <Parameter Name="keywords" Type="System.String" DbType="NVarChar(4000)" />
+    <ElementType Name="FTS_VACANTIONResult">
+      <Column Name="[key]" Member="key" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rank" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

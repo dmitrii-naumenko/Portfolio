@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a10a5e11-3ae6-43cb-bb95-f158481f25ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9810/NcSearchService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="e8899c8b-eace-4e3e-8bd7-2d4b635b952d" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="49c62752-ed50-4dc4-8859-5d709b2c9e12" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="41d8fe56-f120-435d-ac57-caed2a1a1987" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/mex" />
+    <MetadataFile FileName="NationalCriminalDatabase.xsd" MetadataType="Schema" ID="b7ef0010-ef85-450f-bb07-d15aa0cd0b9a" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="0700f564-775e-4d1e-8a5a-a909f6abbcd6" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

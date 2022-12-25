@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("National Criminals Database", "Index", "Home")</p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            @if (Request.IsAuthenticated)
+                            {
+                                <li>@Html.ActionLink("Search", "SearchPage", "Home")</li>
+                            }
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

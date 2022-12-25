@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e7abcb7b-95c6-477b-ab21-c8942992fc88" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9810/VacancyService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VacancyService.xsd" MetadataType="Schema" ID="bdb0994b-f5c0-4001-b3db-40f34481838f" SourceId="1" SourceUrl="http://localhost:9810/VacancyService?xsd=xsd0" />
+    <MetadataFile FileName="VacancyService.wsdl" MetadataType="Wsdl" ID="84d37699-10f8-4978-98cf-13279bcf9375" SourceId="1" SourceUrl="http://localhost:9810/VacancyService?wsdl" />
+    <MetadataFile FileName="VacancyService1.xsd" MetadataType="Schema" ID="7f5f63ea-5740-4977-85de-c30e16756765" SourceId="1" SourceUrl="http://localhost:9810/VacancyService?xsd=xsd2" />
+    <MetadataFile FileName="VacancyService2.xsd" MetadataType="Schema" ID="744dbb69-a956-4efd-8785-1f20afcca7c2" SourceId="1" SourceUrl="http://localhost:9810/VacancyService?xsd=xsd1" />
+    <MetadataFile FileName="VacancyService.disco" MetadataType="Disco" ID="05be12b9-992e-40ad-99d1-a61690169bff" SourceId="1" SourceUrl="http://localhost:9810/VacancyService?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

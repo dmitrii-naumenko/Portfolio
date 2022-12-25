@@ -1,0 +1,19 @@
+﻿@model MvcClient.Models.SearchResponce
+
+@{
+    ViewBag.Title = "Онлайн поиск";
+}
+
+<div>
+    <br />
+    <p>Онлайн поиск по вакансиям</p>
+    <br />
+    <br />
+    @using (Html.BeginForm())
+    {
+        <p>Введите текст для поиска: @Html.EditorFor(x => x.SearchText)</p>
+        @Html.ValidationSummary()
+        <input type="submit" value="Поиск" />
+    }
+</div>
+

@@ -1,0 +1,21 @@
+﻿@model MvcWebClient.Models.SearchParameter
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css"/>
+    <title>Search Page</title>
+</head>
+<body>
+   @using (Html.BeginForm())
+   {
+        <h1>National Criminal Database search parameters:</h1>
+        @Html.ValidationSummary()
+       @Html.EditorForModel();
+       <br/>
+        <input type="submit" value="Requist"/>
+    }
+</body>
+</html>

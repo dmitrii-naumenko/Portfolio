@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b989282c-acaa-42cf-b8fb-9edc7a6e895c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9810/NcSearchService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="f77173f5-5066-4fbc-8336-97f2834f905c" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="b942e9b7-567b-43ab-8bc5-d1c320f8299b" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="dbe4eefa-ba2b-4c21-8767-3f78a4c0e6f7" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="20429f87-f958-4f8d-8833-1b5374745f4c" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/?xsd=xsd3" />
+    <MetadataFile FileName="NcSearchService.wsdl" MetadataType="Wsdl" ID="1db97f2c-d137-4bc9-8a71-272178992643" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/?wsdl" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="19b9161d-008c-426a-b5aa-4d872791ed00" SourceId="1" SourceUrl="http://localhost:9810/NcSearchService/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

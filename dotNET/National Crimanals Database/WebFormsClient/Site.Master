@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebFormsClient.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>National Criminal Database title</title>
+    <asp:contentPlaceholder id="head" runat="server" />
+    <style type="text/css">
+#content 
+{
+	margin-top:1em;
+	margin-left: 13em;
+	margin-right: 2em;
+}
+#navigation {
+	width: 200px;
+	top: 4em;
+	left: 1em;
+	width: 13em;	
+	position:absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:90%;
+}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <form id="form1" runat="server">
+            <h1>National Criminals Database Search</h1>
+
+            <div id="content">
+                <asp:LoginName ID="LoginName1" runat="server"/>
+
+    <asp:LoginView ID="LoginView1" runat="server">
+        <LoggedInTemplate>
+            You are currently logging in <b>
+                <asp:LoginName ID="LoginName2" runat="server"/>
+            </b>
+        </LoggedInTemplate>
+        <AnonymousTemplate>
+            Tou must <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">login</asp:HyperLink> before search
+        </AnonymousTemplate>
+    </asp:LoginView>
+                <br/>
+                <br/>
+                <asp:contentplaceholder id="MainContent"
+                 runat="server">
+                </asp:contentplaceholder>
+            </div>
+
+            <div id="navigation">
+                <asp:Menu runat="server" ID="mymenu" DataSourceID="SiteMapDataSource1"/>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />           
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="checksumCondition1.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="dbo_Search_FTSTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.Search_FTS
+
+
+DECLARE	@return_value Int,
+		@Nationality nationalitytypetable
+
+EXEC	@return_value = [Search_FTS]
+		@FirstName = NULL,
+		@LastName = NULL,
+		@Sex = NULL,
+		@Nationality = @Nationality,
+		@AgeFrom = NULL,
+		@AgeBefore = NULL,
+		@HeightFrom = NULL,
+		@HeightBefore = NULL,
+		@WeightFrom = NULL,
+		@WeightBefore = NULL,
+		@FreeText = 'childrens'
+
+SELECT	@return_value as 'Return Value'
+
+
+</value>
+  </data>
+  <data name="dbo_Search_FTSTest_PretestAction.SqlScript" xml:space="preserve">
+    <value>/*
+Add SQL statements here that you want to run before
+the test script is run.
+
+In the lower pane, you can add test conditions that verify 
+whether the results of your SQL statements match what 
+you expect.
+*/
+
+DELETE FROM [Person]
+
+
+SET IDENTITY_INSERT [Person] ON
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (3, N'Michael', N'Adamson', 1, N'1970-01-01 00:00:00', NULL, NULL, 1, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (4, N'Emily', N'Adamson', 2, NULL, NULL, NULL, 1, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (6, N'Olivia', N'Holiday', 2, NULL, NULL, NULL, 4, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (7, N'David', N'James', 1, N'1971-01-01 00:00:00', NULL, 60, 4, N'Just for example!
+   I was born on the 3rd of June 1991 in Moscow. Like many other children when I was a child I went to a kindergarten.
+   At the age of 7 I went to school. I was very proud when I became a pupil.
+   But very soon I realized that I had to work hard if I wanted my parents to be pleased with me.
+   I am an outgoing person. I like to go to discos, to parties with my friends. Certainly we talk a lot about life, our problems.
+   Sometimes I like to stay home alone, especially when I need some relaxation. Then I listen to music, watch television or read books.
+   I am a school leaver now. I have good marks. I am going to enter the university. The most important thing now is to pass the entrance exams well and to enter the university.')
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (8, N'Daniel', NULL, 1, N'1972-01-01 00:00:00', NULL, 65, 4, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (9, N'Joseph', NULL, 1, N'1973-01-01 00:00:00', NULL, 70, 6, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (10, N'Ryan', NULL, 1, N'1974-01-01 00:00:00', 168, 75, 6, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (11, N'Tyler', NULL, 1, N'1975-01-01 00:00:00', 169, 80, 6, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (12, N'John', NULL, 1, N'1976-01-01 00:00:00', 170, 85, 8, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (14, N'Logan', NULL, 1, N'1977-01-01 00:00:00', 171, 90, 8, N'Just for example!
+My name is . I would like to tell you about my scientific work. I graduated from Cherepovets State University in 2014. I received my degree in pedagogy; my speciality is adaptive physical education. I work as PE (physical education) teacher in school. I am interested in physical training students and also moral education.')
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (16, N'Jose', NULL, 1, N'1978-01-01 00:00:00', 172, 95, 8, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (17, N'Caleb', NULL, 1, N'1979-01-01 00:00:00', 173, NULL, 20, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (18, N'Luke', NULL, 1, N'1980-01-01 00:00:00', NULL, NULL, 20, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (19, N'Cameron', NULL, 1, NULL, NULL, NULL, 2, NULL)
+INSERT INTO [Person] ([id], [FirstName], [LastName], [Sex], [DateOfBirth], [Height], [Weight], [Nationality], [Text]) VALUES (20, N'Adam', NULL, 1, NULL, NULL, NULL, 1, NULL)
+SET IDENTITY_INSERT [Person] OFF
+
+ALTER FULLTEXT INDEX ON [Person] START FULL POPULATION
+
+
+DECLARE @CatalogName VARCHAR(MAX)
+SET     @CatalogName = 'TFC'
+
+DECLARE @CatalogStatus VARCHAR(MAX)
+SET     @CatalogStatus = 'NULL'
+
+WHILE (@CatalogStatus != 'Idle')
+BEGIN
+	WAITFOR DELAY '00:00:00.01'
+
+	SELECT
+	    --DATEADD(ss, FULLTEXTCATALOGPROPERTY(@CatalogName,'PopulateCompletionAge'), '1/1/1990') AS LastPopulated
+		@CatalogStatus = (SELECT CASE FULLTEXTCATALOGPROPERTY(@CatalogName,'PopulateStatus')
+	        WHEN 0 THEN 'Idle'
+		    WHEN 1 THEN 'Full Population In Progress'
+			WHEN 2 THEN 'Paused'
+	        WHEN 3 THEN 'Throttled'
+		    WHEN 4 THEN 'Recovering'
+			WHEN 5 THEN 'Shutdown'
+		    WHEN 6 THEN 'Incremental Population In Progress'
+	        WHEN 7 THEN 'Building Index'
+			WHEN 8 THEN 'Disk Full.  Paused'
+	        WHEN 9 THEN 'Change Tracking' END) -- AS PopulateStatus
+	FROM sys.fulltext_catalogs AS cat
+END</value>
+  </data>
+  <data name="dbo_Search_FTSTest_PosttestAction.SqlScript" xml:space="preserve">
+    <value>/*
+Add SQL statements here that you want to run after 
+the test script is run.
+
+In the lower pane, you can add test conditions that verify 
+whether the results of your SQL statements match what 
+you expect.
+*/
+
+DELETE FROM [Person]</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

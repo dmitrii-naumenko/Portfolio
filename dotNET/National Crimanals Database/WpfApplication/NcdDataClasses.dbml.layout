@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/NationalCriminalDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="88dbb864-eccd-4bd5-8ddd-bbd557abb693" absoluteBounds="5.375, 2.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/NationalCriminalDatabaseDataContext/Sex" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32b0f80b-504b-45e3-a8e9-8302bfdb3225" absoluteBounds="5.39, 2.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74456cab-e247-49db-acff-3931074e3d90" absoluteBounds="6, 4.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/NationalCriminalDatabaseDataContext/Nationality" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c3ceda0-4dbf-47c2-84c7-3d538126224d" absoluteBounds="6.015, 4.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1fd0f79f-0eff-4d83-a6cb-bcce7544472d" absoluteBounds="1.875, 3.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/NationalCriminalDatabaseDataContext/Person" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf662294-1eea-455f-865c-0ba8c6053c97" absoluteBounds="1.8900000000000001, 3.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 5.08255126953125); (3.875 : 5.08255126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NationalCriminalDatabaseDataContext/Nationality/Nationality_Person" />
+      <nodes>
+        <classShapeMoniker Id="74456cab-e247-49db-acff-3931074e3d90" />
+        <classShapeMoniker Id="1fd0f79f-0eff-4d83-a6cb-bcce7544472d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 2.6874995); (2.875 : 2.6874995); (2.875 : 3.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NationalCriminalDatabaseDataContext/Sex/Sex_Person" />
+      <nodes>
+        <classShapeMoniker Id="88dbb864-eccd-4bd5-8ddd-bbd557abb693" />
+        <classShapeMoniker Id="1fd0f79f-0eff-4d83-a6cb-bcce7544472d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

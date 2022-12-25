@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NationalCriminalDatabase">
+  <DataContextMoniker Name="/NationalCriminalDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8a86666e-4299-4279-bfd0-c57cac275b1f" absoluteBounds="3.125, 1.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/NationalCriminalDatabaseDataContext/Person" />
+      <nestedChildShapes>
+        <elementListCompartment Id="288d5b40-0d4d-4115-82ac-9fca6b37d5d6" absoluteBounds="3.14, 1.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f97c10db-fb17-4bd6-b691-a3ccf69d0299" absoluteBounds="0.625, 1.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/NationalCriminalDatabaseDataContext/Nationality" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8085a4c4-7cc1-4e63-930b-f80ea9fffa38" absoluteBounds="0.64000000000000012, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 1.72199625651042); (3.125 : 1.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NationalCriminalDatabaseDataContext/Nationality/Nationality_Person" />
+      <nodes>
+        <classShapeMoniker Id="f97c10db-fb17-4bd6-b691-a3ccf69d0299" />
+        <classShapeMoniker Id="8a86666e-4299-4279-bfd0-c57cac275b1f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="52ef0a6c-f6bb-41cc-9fcd-52707842e17f" absoluteBounds="0.625, 2.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/NationalCriminalDatabaseDataContext/Sex" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67c1ec9a-4753-475e-969e-f26efc09a55d" absoluteBounds="0.64000000000000012, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 3.08255126953125); (3.125 : 3.08255126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NationalCriminalDatabaseDataContext/Sex/Sex_Person" />
+      <nodes>
+        <classShapeMoniker Id="52ef0a6c-f6bb-41cc-9fcd-52707842e17f" />
+        <classShapeMoniker Id="8a86666e-4299-4279-bfd0-c57cac275b1f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

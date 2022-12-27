@@ -7,5 +7,6 @@ There are my major projects of embedded engineering with references to mission d
 
 The figure below shows the appearance of the assembly of several subsystems of the [Aist-2](https://ru.wikipedia.org/wiki/АИСТ_№_2) satellite. Just to show what this equipment looks like. Detailed description [here](https://epizodsspace.airbase.ru/bibl/aist-2d/aist-2d-2017.pdf)
 
+![Assembly of several subsystems](https://github.com/dmitrii-naumenko/Portfolio/blob/main/Embedded%20software%20and%20Hardware%20Design/Assembly.png?raw=true)
 
 

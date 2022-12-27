@@ -23,5 +23,5 @@ Science and Technology](https://sat.sibsau.ru/page/doca-n), [Bauman Moscow State
 	- helper for planing
 
 It is main windows of workstation application
-![](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/GCC%20main%20screen.png?raw=true)
+![](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/GCC%20main%20screen.png?raw=true)
 	

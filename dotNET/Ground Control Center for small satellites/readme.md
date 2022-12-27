@@ -3,24 +3,10 @@ Science and Technology](https://sat.sibsau.ru/page/doca-n), [Bauman Moscow State
 
  It includes following components:
 
-- Workstation application
-	- satellite tracking
-	- control of RF equipments and modems
-	- receiving and transmitting the data
-	- task scheduller 
-- Data storage (MS SQL Server)
-	- metadata storage
-	- telemetry storage
-	- orbit parameters storage and versification
-- Processing components (.NET C#, WPF, VBA, MS Office)
-	- error correction
-	- planning
-	- data analysis
-	- preparing reports
-- Data visializaton (.NET C#, WPF)
-	- interactive GUI with customized workspaces
-	- preparing reports
-	- helper for planing
+- **Workstation application** (satellite tracking, control of RF equipments and modems, receiving and transmitting the data, task scheduller)
+- **Data storage** based MS SQL Server (metadata storage, telemetry storage, orbit parameters storage and versification)
+- **Processing components** by using .NET C#, WPF, VBA, MS Office (errors correction,  planning, data analysis, preparing reports)
+- **Data visializaton** by using .NET C#, WPF (interactive GUI with customized workspaces, preparing reports, helper for planing)
 
 It is one of Ground Control Center
 ![Ground Control Center](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/gcc.jpg?raw=true)

@@ -22,6 +22,9 @@ Science and Technology](https://sat.sibsau.ru/page/doca-n), [Bauman Moscow State
 	- preparing reports
 	- helper for planing
 
+It is one of Ground Control Center
+![Ground Control Center](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/gcc.jpg?raw=true)
+
 It is main windows of workstation application
-![](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/GCC%20main%20screen.png?raw=true)
+![main windows of workstation application](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/GCC%20main%20screen.png?raw=true)
 	

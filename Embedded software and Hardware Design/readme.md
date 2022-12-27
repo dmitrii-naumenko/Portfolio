@@ -1,6 +1,6 @@
 There are my major projects of embedded engineering with references to mission descriptons:
 
-- Attitude control subsystem of [Skif-D Sphera](https://ru.wikipedia.org/wiki/Сфера_(целевая_программа)), [МиР «Юбилейный-2» (RS-40)](https://ru.wikipedia.org/wiki/МиР_(космический_аппарат)), [Baumanets-2](https://ru.wikipedia.org/wiki/Бауманец_(космический_аппарат)), [University-Tatyana-2](https://www.vniiem.ru/ru/index.php?option=com_content&view=article&id=471:-l-2r&catid=37:spaceprograms&Itemid=62) small satellites, [Ionosonde-2025](https://ru.wikipedia.org/wiki/Ионозонд_(космический_проект)) space complex and others
+- Attitude control subsystem of [Skif-D Sphera](https://ru.wikipedia.org/wiki/Сфера_(целевая_программа)), [МиР «Юбилейный-2» (RS-40)](https://ru.wikipedia.org/wiki/МиР_(космический_аппарат)), [Baumanets-2](https://ru.wikipedia.org/wiki/Бауманец_(космический_аппарат)), [University-Tatyana-2](https://www.eoportal.org/satellite-missions/tatiana-2#overview) small satellites, [Ionosonde-2025](https://ru.wikipedia.org/wiki/Ионозонд_(космический_проект)) space complex and others
 - Power subsustem of [MKA-FKI](https://ru.wikipedia.org/wiki/МКА-ФКИ), [ORBCOMM](https://www.ohb-system.de/press-releases-details/six-new-orbcomm-satellites-successfully-launched.html) and others satellites
 - On-board equipment for radiation validation of chips for [МиР «Юбилейный-2» (RS-40)](https://ru.wikipedia.org/wiki/МиР_(космический_аппарат))
 - Signal simulator for automated testing of onboard equipment

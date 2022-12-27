@@ -26,7 +26,7 @@ It is one of Ground Control Center
 ![Ground Control Center](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/gcc.jpg?raw=true)
 
 It is main windows of workstation application
-![main windows of workstation application](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/GCC%20main%20screen.png?raw=true)
+![main windows of workstation application](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/GCC%20main%20screen.jpg?raw=true)
 	
 Interactive control panel 
 ![Interactive control panel ](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Ground%20Control%20Center%20for%20small%20satellites/images/Interactive%20Control%20Panel.png?raw=true)

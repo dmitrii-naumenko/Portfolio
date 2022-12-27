@@ -8,3 +8,8 @@
 | [IT Management](https://github.com/dmitrii-naumenko/Portfolio/tree/main/IT%20Management) | Software integration and implementation using ITIL principles  to improve IT-processes |
 | [Embedded Software and Hardware Design](https://github.com/dmitrii-naumenko/Portfolio/tree/main/Embedded%20software%20and%20Hardware%20Design) | Embedded software, schematic and pcb design |
 | [Сertificates](https://github.com/dmitrii-naumenko/Portfolio/tree/main/Сertificates) | Some certificates from exams, education and events |
+
+Contacts: <br>
+[dima-post2009@yandex.com](mailto:dima-post2009@yandex.com) <br>
+[https://www.linkedin.com/in/naumenko-d/](https://www.linkedin.com/in/naumenko-d/)<br>
+[https://t.me/naumenko_ds](https://t.me/naumenko_ds)

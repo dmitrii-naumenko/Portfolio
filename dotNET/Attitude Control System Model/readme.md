@@ -1,0 +1,3 @@
+High accuracy mathemetical model for attitude control system of small satellites. GUI displays 3D model, cordinate axises, base parameters and plots online. All data saved to reports for detailed analysis. The model takes into account  dynamics, kinematicts, astronomic, small disturbation, onboard equipments, control algorithms, etc. Software has some features that allows to conduct automate test process.
+
+![Software model](https://github.com/dmitrii-naumenko/Portfolio/blob/main/dotNET/Attitude%20Control%20System%20Model/ACS%20Model%20main%20screen.png?raw=true)

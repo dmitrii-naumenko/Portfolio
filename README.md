@@ -1,5 +1,7 @@
 ## Portfolio
 
+My major professional area is **Data Science** now. But also I have experience in .NET and embedded software that allows me create full stack production ready applications as for servers and as for emvedded. 
+
 | Group        | Description   |                                                  
 | ------------------------------------------------------------ | ------------------------------------------------------------ | 
 | [Data Science](https://github.com/dmitrii-naumenko/Portfolio/tree/main/Data%20Science) | Data Science projects such as Machine Learning, NLP, CV, e.t.c  |

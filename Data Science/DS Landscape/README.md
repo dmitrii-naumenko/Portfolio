@@ -1,0 +1,20 @@
+# Data Science Landscape
+
+[Go to full repository](https://github.com/uberkinder/DS-landscape)
+
+
+**DS Landscape** is a web site and Telegram bot that helps to understand better relationships between skills and positions in Data Science. It also provides visualization of education courses on skills landscape
+
+DS Landscape allows:
+
+- find appropriate speciality for your skills
+- improve neseccary skills for desired speciality
+- fill the gap in work out the skills missing for the desired specialty
+- find out which vacancies on the market correspond to the skills and what needs to be improved
+- answer the questions: what can I do? what I want? what do I need to know?
+
+Our goal is to reduce the distance between the desired specialty and the process of obtaining skills.
+
+See **Design Doc** for details:
+[Design Doc.md](https://github.com/uberkinder/DS-landscape/blob/main/design/Design%20Doc.md) or 
+[Design Doc.pdf](https://github.com/uberkinder/DS-landscape/blob/main/design/Design%20doc.pdf)
